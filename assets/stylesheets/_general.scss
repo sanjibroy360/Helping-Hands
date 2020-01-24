@@ -21,7 +21,7 @@
 }
 
 .gallery-flex li a {
-    padding:0 20px;
+    padding:10px 20px;
     color: #000;
 }
 
@@ -61,7 +61,6 @@
 .gallery-para {
     padding-top: 80px;
     font-size: 30px;
-
     padding-bottom: 40px;
     text-transform: uppercase;
     text-align: center;
@@ -92,6 +91,13 @@
 
 .logo-para {
     font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.menu ul li a:hover,
+.active a {
+  background: #388c9b;
+  color: #ffffff;
 }
 
 // Footer 
@@ -131,6 +137,7 @@
 
 .contact-flex li a {
     padding:10px 20px;
+    margin:0;
     color: #000;
 }
 

@@ -89,7 +89,8 @@ img {
 }
 
 .gallery-flex li a {
-  margin: 0 20px;
+  padding: 10px 20px;
+  color: #000;
 }
 
 .gallery-banner {
@@ -153,6 +154,13 @@ img {
 
 .logo-para {
   font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.menu ul li a:hover,
+.active a {
+  background: #388c9b;
+  color: #ffffff;
 }
 
 .gallery-footer {
@@ -169,10 +177,6 @@ img {
   padding-bottom: 150px;
 }
 
-.contact-logo img {
-  padding-left: 24px;
-}
-
 .contact-main {
   padding: 80px 0;
   background: linear-gradient(90deg, #A1FFCE 0%, #FAFFD1 100%);
@@ -186,6 +190,7 @@ img {
 
 .contact-flex li a {
   padding: 10px 20px;
+  margin: 0;
   color: #000;
 }
 
