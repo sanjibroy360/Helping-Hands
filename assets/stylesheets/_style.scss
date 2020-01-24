@@ -1,4 +1,25 @@
-@import "reset";
-@import "base";
-@import "var";
-@import "common";
+@import "_reset.scss";
+@import "_base.scss";
+@import "_general.scss";
+
+@media all and (max-width:764px) {
+    
+    .gallery-grid-container {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .gallery-main {
+        padding: 10px;
+    }
+
+    .contact-form-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
+
+    .contact-main {
+        padding: 0 10px;
+    }
+
+}
