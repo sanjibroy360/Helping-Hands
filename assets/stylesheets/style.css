@@ -1,16 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -20,8 +88,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -29,16 +106,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -49,13 +130,158 @@ table {
 }
 
 /* My CSS */
-/* My Reset */
+/* My Resrt */
 a {
   text-decoration: none;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Amaranth", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.letter_specing_4 {
+  letter-spacing: 0.4px;
+}
+
+.btn {
+  outline: 0;
+  font-family: "Amaranth", sans-serif;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* header */
+.header {
+  padding: 15px 0;
+  position: absolute;
+  width: 100%;
+  z-index: 111;
+  overflow: hidden;
+}
+
+.logo {
+  padding-left: 24px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  color: #141414;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-weight: 600;
+  display: block;
+}
+
+.menu a:hover,
+.active a {
+  background: #388c9b;
+  color: #ffffff;
+}
+
+.home_hero {
+  padding-top: 7rem;
+  padding-bottom: 2.5rem;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#acb6e5), to(#86fde8));
+  background: linear-gradient(90deg, #acb6e5 0%, #86fde8 100%);
+  position: relative;
+  text-shadow: 1px 1px 1px #a7e3ee;
+}
+
+.home_hero h1 {
+  font-size: 3.2rem;
+  font-family: "Amaranth", sans-serif;
+}
+
+.home_hero h5 {
+  font-size: 1.25rem;
+  font-family: "Amaranth", sans-serif;
+  color: black;
+}
+
+/* main section */
+.home_section {
+  background: -webkit-gradient(linear, left top, right top, from(#a1ffce), to(#faffd1));
+  background: linear-gradient(90deg, #a1ffce 0%, #faffd1 100%);
+  padding: 4rem;
+  width: 100%;
+}
+
+.home_section .column {
+  width: 75%;
+}
+
+.home_section .column h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Amaranth", sans-serif;
+  padding: 1.5rem 0;
+}
+
+.home_section .column h1 span {
+  font-weight: 700;
+}
+
+.home_section .column p {
+  font-size: 1.5rem;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+.home_btn {
+  padding: 1rem 1.5rem;
+  background: -webkit-gradient(linear, left top, right top, from(#acb6e5), to(#86fde8));
+  background: linear-gradient(90deg, #acb6e5 0%, #86fde8 100%);
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.home_btn:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#a1ffce), to(#faffd1));
+  background: linear-gradient(90deg, #a1ffce 0%, #faffd1 100%);
+  border: 2px solid snow;
+}
+
+.footer {
+  background: #e9f8da;
+  font-size: 1.125rem;
+  text-align: center;
+  padding: 20px 0;
+}
 /*# sourceMappingURL=style.css.map */
