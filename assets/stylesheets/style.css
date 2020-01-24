@@ -89,7 +89,7 @@ img {
 }
 
 .gallery-flex li a {
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   color: #000;
 }
 
@@ -112,19 +112,19 @@ img {
 }
 
 .gallery-image img {
-  height: 200px;
+  height: 12.5rem;
 }
 
 .gallery-heading {
-  font-size: 32px;
+  font-size: 2rem;
   text-align: center;
-  padding: 40px 0;
+  padding: 2.5rem 0;
 }
 
 .gallery-para {
-  padding-top: 80px;
-  font-size: 30px;
-  padding-bottom: 40px;
+  padding-top: 5rem;
+  font-size: 1.875rem;
+  padding-bottom: 2.5rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -134,7 +134,7 @@ img {
   font-size: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 80px 0;
+  padding: 5rem 0;
 }
 
 .gallery-image img:hover {
@@ -144,12 +144,12 @@ img {
 
 .logo-heading {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-size: 3.2rem;
 }
 
 .gallery-logo img {
-  padding-left: 24px;
+  padding-left: 1.5rem;
 }
 
 .logo-para {
@@ -165,7 +165,7 @@ img {
 
 .gallery-footer {
   background: #e9f8da;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .contact-header {
@@ -174,11 +174,11 @@ img {
 
 .contact-banner {
   background: linear-gradient(90deg, #ACB6E5 0%, #86FDE8 100%);
-  padding-bottom: 150px;
+  padding-bottom: 9.375rem;
 }
 
 .contact-main {
-  padding: 80px 0;
+  padding: 5rem 0;
   background: linear-gradient(90deg, #A1FFCE 0%, #FAFFD1 100%);
 }
 
@@ -189,7 +189,7 @@ img {
 }
 
 .contact-flex li a {
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   margin: 0;
   color: #000;
 }
@@ -206,8 +206,8 @@ img {
   width: 90%;
   border: 0;
   background-color: #eee;
-  padding: 20px;
-  margin: 20px 0;
+  padding: 1.25rem;
+  margin: 1.25rem 0;
   outline: 0;
 }
 
@@ -219,7 +219,7 @@ img {
 }
 
 .contact-social-media {
-  padding-top: 25px;
+  padding-top: 1.5625rem;
   margin-left: 5%;
 }
 
@@ -229,15 +229,15 @@ img {
 }
 
 .contact-social-links i {
-  font-size: 25px;
+  font-size: 1.5625rem;
   line-height: 2.5;
-  padding-right: 38px;
+  padding-right: 2.375rem;
   border-radius: 50%;
   color: #777;
 }
 
 .contact-social-media iframe {
-  padding-top: 70px;
+  padding-top: 4.375rem;
 }
 
 .contact-social-links {
@@ -246,13 +246,13 @@ img {
 }
 
 .contact-heading {
-  font-size: 35px;
-  padding: 15px 0;
+  font-size: 2.1875rem;
+  padding: 0.9375rem 0;
 }
 
 .contact-para {
-  font-size: 17px;
-  padding-bottom: 15px;
+  font-size: 1.0625rem;
+  padding-bottom: 0.9375rem;
 }
 
 .contact-btn {
@@ -260,41 +260,41 @@ img {
   font-family: "Amaranth", sans-serif;
   font-weight: 700;
   border: 0;
-  border-radius: 25px;
-  padding: 8px 24px;
+  border-radius: 1.5625rem;
+  padding: 0.5rem 1.5rem;
   background: linear-gradient(90deg, #acb6e5 0%, #86fde8 100%);
   margin: 2rem 0;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .contact-footer {
   background: #e9f8da;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .contact-btn:hover {
   background: -webkit-gradient(linear, left top, right top, from(#a1ffce), to(#faffd1));
   background: linear-gradient(90deg, #a1ffce 0%, #faffd1 100%);
-  border: 2px solid snow;
+  border: 0.125rem solid snow;
 }
 
 @media all and (max-width: 764px) {
   .gallery-grid-container {
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-gap: 0.625rem;
   }
 
   .gallery-main {
-    padding: 10px;
+    padding: 0.625rem;
   }
 
   .contact-form-grid {
     grid-template-columns: 1fr;
-    grid-gap: 40px;
+    grid-gap: 2.5rem;
   }
 
   .contact-main {
-    padding: 0 10px;
+    padding: 0 0.625rem;
   }
 }
 

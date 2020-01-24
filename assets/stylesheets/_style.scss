@@ -6,20 +6,20 @@
     
     .gallery-grid-container {
         grid-template-columns: 1fr;
-        grid-gap: 10px;
+        grid-gap:0.625rem;
     }
 
     .gallery-main {
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     .contact-form-grid {
         grid-template-columns: 1fr;
-        grid-gap: 40px;
+        grid-gap: 2.5rem;
     }
 
     .contact-main {
-        padding: 0 10px;
+        padding: 0 0.625rem;
     }
 
 }
