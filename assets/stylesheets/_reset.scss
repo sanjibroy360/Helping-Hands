@@ -53,3 +53,12 @@ a {
 *,*::before,*::after {
     box-sizing: border-box;
 }
+
+.ap-list {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+button {
+	outline: 0;
+}
