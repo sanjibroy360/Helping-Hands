@@ -4,9 +4,9 @@
 @import "common";
 @import "_other";
 @import "gallery";
+@import "_style.css";
 
 /* header */
-
 .header {
   padding: 1rem 0;
   position: absolute;
@@ -89,6 +89,9 @@
 .home_btn:hover {
   background: linear-gradient(90deg, #a1ffce 0%, #faffd1 100%);
   border: inset 2px solid snow;
+}
+.ap_hero {
+  padding-top: 8rem;
 }
 
 // home footer
@@ -183,4 +186,13 @@
       display: inline-block;
     }
   }
+  .ap-flex {
+    display: block;
+  }
+}
+
+// other file
+
+.ap-hero-section {
+  padding-top: 12rem;
 }
