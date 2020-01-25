@@ -1,0 +1,64 @@
+@import "reset";
+@import "base";
+@import "var";
+@import "common";
+
+@media screen and (max-width: 768px) {
+    .ap-header {
+        .ap-navigation {
+            display: none;
+        }
+    }
+    .ap-flex{
+        display: block;
+    }
+    .ap-column {
+        display: block;
+        width: 100%;
+    }
+    .ap-heading{
+        display: block;
+        text-align: center;
+    }
+    .ap-paragraph {
+        display: block;
+        text-align: center;
+    }
+    .ap-images {
+        display: none;
+    }
+    .ap-button-wrapper {
+        display: block;
+    }
+    .ap-btn {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .ap-heading-2 {
+        font-size: 1.5rem;
+        display: block;
+        text-align: center;
+    }
+    .contribute-images {
+       display: none;
+    }
+    .ap-form-wrapper {
+        display: block;
+        width: 100%;
+    }
+    .ap-input {
+        width: 100%;
+    }
+    .ap-form-heading {
+        font-size: 1.5rem;
+    }
+    .ap-select {
+        width: 100%;
+        text-align: center;
+        border: 1px ;
+        padding: 0.5rem 0;
+    }
+    .ap-marquee {
+        font-size: 1.5rem;
+    }
+}
