@@ -3,6 +3,7 @@
 @import "var";
 @import "common";
 @import "_other";
+@import "gallery";
 
 /* header */
 
@@ -176,5 +177,10 @@
   }
   .home_hero {
     padding-top: 5rem;
+  }
+  .header {
+    .flex {
+      display: inline-block;
+    }
   }
 }
