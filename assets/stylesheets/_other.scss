@@ -1,0 +1,161 @@
+.other_banner {
+  font-family: "Amaranth", sans-serif;
+  background: linear-gradient(90deg, #a1ffce 0%, #faffd1 100%);
+  h2 {
+    padding-top: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: #1c1c1c;
+    padding-bottom: 2.6rem;
+  }
+  img {
+    width: 100%;
+  }
+  .other-btn {
+    padding: 1.25rem 0 3rem 0;
+    text-align: center;
+  }
+}
+.other_col1 {
+  width: 46%;
+  align-self: center;
+  p {
+    font-size: 1.25rem;
+    color: #1c1c1c;
+  }
+}
+
+// mobile view
+
+@media all and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 1.125rem;
+  }
+  .hero_banner_img {
+    width: 100%;
+  }
+  .other_col1 {
+    width: 100%;
+    display: block;
+  }
+  .other-flex {
+    display: block;
+  }
+}
+// wildfire page css //
+
+.wild-banner {
+  background: url("../media/images/deer1.gif") no-repeat;
+  background-size: cover;
+  h2 {
+    padding: 200px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #f2f2f3;
+  }
+}
+.wild-image {
+  img {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+  }
+}
+.other-container1 {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.para {
+  margin: 30px auto;
+  padding: 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.wild-column {
+  justify-content: space-evenly;
+  margin-left: 300px;
+  .wild-col1 {
+    padding-right: 30px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 7px;
+  }
+}
+.wild-img img {
+  width: 580px;
+  height: 300px;
+
+  padding: 0;
+}
+.wild-img {
+  width: 47%;
+  justify-self: right;
+}
+.wild-column1 {
+  display: flex;
+  justify-content: space-around;
+}
+.wild-img2 {
+  margin-left: 45px;
+}
+.wakeup {
+  text-align: center;
+  img {
+    border-radius: 30px;
+    width: 60%;
+    height: 35rem;
+  }
+}
+.para1 {
+  text-align: center;
+}
+.wild-form {
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+
+.other-heading {
+  text-align: center;
+}
+.wild-btn {
+  padding: 1rem 0 3.1rem 0;
+  text-align: center;
+}
+option,
+.input {
+  color: #213667;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #213667;
+  margin-bottom: 30px;
+  padding: 6px;
+  outline: 0;
+  background: transparent;
+}
+.flex-contact {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.form input {
+  display: block;
+}
+.form {
+  text-align: center;
+}
+.contact {
+  width: 70%;
+  margin: 0 auto;
+}
+.btn-send {
+  background: #2b4c57;
+  color: #ffffff;
+  font-size: 16px;
+}

@@ -23,3 +23,12 @@ body {
   border-radius: 25px;
   cursor: pointer;
 }
+
+.other-flex {
+  display: flex;
+  justify-content: space-between;
+}
+// .wild-grid {
+//     display: grid;
+//     grid-template-columns: repeat (2, 1fr);
+// }

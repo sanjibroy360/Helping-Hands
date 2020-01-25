@@ -2,8 +2,10 @@
 @import "base";
 @import "var";
 @import "common";
+@import "_other";
 
 /* header */
+
 .header {
   padding: 1rem 0;
   position: absolute;
@@ -85,7 +87,7 @@
 }
 .home_btn:hover {
   background: linear-gradient(90deg, #a1ffce 0%, #faffd1 100%);
-  border: 2px solid snow;
+  border: inset 2px solid snow;
 }
 
 // home footer
