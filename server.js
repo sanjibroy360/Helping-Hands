@@ -40,7 +40,6 @@ function handleRequest(req, res) {
                 res.setHeader('Content-Type','video/*');
                 fs.createReadStream('.' +req.url).pipe(res);
                 break;
-
             }
         }
 
